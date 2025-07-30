@@ -10,7 +10,7 @@ This repository captures important concepts from a database course. It covers th
 2. [Benefits of DBMS – Mind Map](#benefits-of-dbms--mind-map)
 3. [A Description of Database Roles](#a-description-of-database-roles)
 4. [Different Kinds of Databases](#different-kinds-of-databases)
-5. [Cloud Databases and Storage](#cloud-storage-and-databases)
+5. [Cloud Storage and Databases](#cloud-storage-and-databases)
 6. [List of References](#list-of-references)
 
 ---
@@ -28,7 +28,7 @@ The following comparison between relational databases and flat file systems is b
 | **Drawbacks**   | Not scalable for complicated systems and prone to mistakes.                        | Needs preparation and configuration, but far superior for managing and querying complex data. |
 
 ---
-<a name="#benefits-of-dbms--mind-map"></a>
+<a name="benefits-of-dbms--mind-map"></a>
 ## 🧠 Benefits of DBMS – Mind Map
 
 Databases offer far more than just storing data. Below is a mind map showing the main advantages of using a Database Management System (DBMS).
@@ -59,7 +59,7 @@ Various individuals have different duties in relation to the database in a genui
 - **BI Developer**: Uses data to create dashboards and reports that aid companies in making decisions.  
 
 ---
-<a name="#different-kinds-of-databases"></a>
+<a name="different-kinds-of-databases"></a>
 ## 🧾 Different Kinds of Databases
 
 ### 📍 Relational vs. Non-Relational
@@ -92,7 +92,7 @@ Various individuals have different duties in relation to the database in a genui
 | **Cloud-Based** | Hosted by services like AWS or Azure. Provides scalability, speed, and simple maintenance.   | SaaS applications, mobile backends, and global platforms requiring low latency. |
 
 ---
-<a name="#cloud-storage-and-databases"></a>
+<a name="cloud-storage-and-databases"></a>
 ## ☁️ Cloud Storage and Databases
 
 ### 🔗 What is cloud storage?
@@ -127,7 +127,7 @@ Databases may grow in the cloud storage environment, and tools can be used to ke
 | **Cloud Spanner** | Google Cloud     | Designed for scalability and high worldwide consistency.                 |
 
 ---
-<a name="#list-of-references"></a>
+<a name="list-of-references"></a>
 ## 📚 List of References
 
 - IBM. (2021). What is a relational database?: https://www.ibm.com/think/topics/relational-databases
