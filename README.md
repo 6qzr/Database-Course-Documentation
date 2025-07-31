@@ -1,6 +1,6 @@
 # 📘 Database Course Documentation
 
-This repository captures important concepts from a database course. It covers the design and usage of contemporary databases, including cloud-based ones, as well as organized comparisons, diagrams, and realistic role descriptions. The aim is to increase our understanding of the functioning of databases as well as the connections between various systems and technologies.
+This repository captures important concepts from a database course. It covers the design and usage of modern databases, including cloud-based ones, as well as organized comparisons, diagrams, and realistic role descriptions. The aim is to increase our understanding of the functioning of databases as well as the connections between various systems and technologies.
 
 ---
 
@@ -39,8 +39,8 @@ Databases offer far more than just storing data. Below is a mind map showing the
 ### Important points
 
 - **Security**: User authentication, encryption, and access controls.  
-- **Integrity**: Maintains the accuracy and consistency of data while adhering to regulations and restrictions.  
-- **Backup**: Aids in recovering from disasters and returning to prior data conditions.  
+- **Integrity**: Maintains data accuracy and consistency while following rules and restrictions.
+- **Backup**: Helps one to get over crises and go back to past data situations.
 - **Redundancy Control**: Prevents data from being repeated unnecessarily.  
 - **Concurrency**: Enables several users to collaborate on the same data without any conflicts.  
 - **Data Sharing**: Facilitates data access centrally for various users and programs.  
@@ -51,12 +51,12 @@ Databases offer far more than just storing data. Below is a mind map showing the
 
 Various individuals have different duties in relation to the database in a genuine project. The following is a list of who does what:
 
-- **System Analyst**: Determines the system's requirements by interacting with users or customers, and then documents these needs in a way that is understandable to the team so that they can construct it.  
-- **Database Designer**: Transforms those needs into a design, including tables, columns, relationships, and other elements.  
-- **Database Developer**: Writes the real code to construct the database architecture and occasionally creates logic such as stored procedures.  
-- **Database Administrator (DBA)**: Maintains the database's functionality by managing users, performing backups, maintaining security, and resolving problems.  
-- **Application Developer**: Constructs the website or app that communicates with the database through queries or APIs.  
-- **BI Developer**: Uses data to create dashboards and reports that aid companies in making decisions.  
+- **System Analyst**: Interact with consumers or clients to identifiy the system's requirements and then writes them in a manner intelligible to the team so that they can build it.  
+- **Database Designer**: Converts those requirements into a design with tables, columns, relationships, and other components.
+- **Database Developer**: Writes the actual code to build the database architecture and adds logic like stored procedures
+- **Database Administrator (DBA)**: Keeps the database running by controlling users, carrying out backups, upholding security, and fixing problems.
+- **Application Developer**: Builds the website or app that uses queries or APIs to interact with the database.
+- **BI Developer**: Helps businesses make choices by using data to produce reports and dashboards.
 
 ---
 <a name="different-kinds-of-databases"></a>
@@ -65,17 +65,17 @@ Various individuals have different duties in relation to the database in a genui
 ### 📍 Relational vs. Non-Relational
 
 **Relational Databases**  
-- Data should be kept in a well-organized format (tables with fixed columns).  
-- Use SQL to retrieve or insert data.  
+- Data should be stored in well-structured tabular format with static columns.
+- SQL is used to insert or retrieve data.
 - Follows ACID principles (Atomicity, Consistency, Isolation, Durability).  
 
 **Non-Relational Databases (NoSQL)**  
-- More adaptable in design. Ideal for applications requiring high speeds and large data volumes.  
-- Data can be stored in a variety of formats and does not need tables.  
+- Designed more flexibly. Perfect for uses needing great speeds and large data volumes.
+- Data does not need tables and can be kept in several forms.
 
 **Typical Instances Include:**
 - **MongoDB** – employs documents that resemble JSON.  
-- **Cassandra** – manages vast quantities of data and is simple to scale.  
+- **Cassandra** – handles enormous volumes of data and simple to scale.
 
 **Applications:**  
 - *Relational:* Inventory, order management, and banking.  
@@ -88,7 +88,7 @@ Various individuals have different duties in relation to the database in a genui
 | Kind          | What It Means                                                                                  | Use Cases / Examples                                                  |
 |---------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | **Centralized** | All information is kept in one location.                                                     | Desktop applications, small business tools.                           |
-| **Distributed** | Data is dispersed across several locations, yet it behaves as though it were a single system. | Enterprise systems that require high availability.                    |
+| **Distributed** | Though data is scattered over several places, it acts like it were a single system. | High availability needed by corporate systems.                    |
 | **Cloud-Based** | Hosted by services like AWS or Azure. Provides scalability, speed, and simple maintenance.   | SaaS applications, mobile backends, and global platforms requiring low latency. |
 
 ---
@@ -97,25 +97,25 @@ Various individuals have different duties in relation to the database in a genui
 
 ### 🔗 What is cloud storage?
 
-Cloud storage stores data online across a network of servers, as opposed to storing it on your computer or a local server. Large corporations like Google, Microsoft, and Amazon are in charge of maintaining it.
+Unlike storing data on your machine or a local server, cloud storage saves data online across a network of servers. Maintaining it is largely under the control of big firms like Google, Microsoft, and Amazon.
 
 ### 🧩 What kind of database support does it offer?
 
-Databases may grow in the cloud storage environment, and tools can be used to keep them backed up and accessible. For instance, a database may get more capacity or speedier access in the cloud without having to switch to new hardware.
+Databases might expand in the cloud storage setting; instruments can be used to maintain their accessibility and backed up. For instance, a cloud database could have increased capacity or faster access without needing a change to fresh hardware.
 
 ### ✅ Advantages
 
-- **Scalability**: Expands automatically as your data demands increase.  
-- **Redundancy**: Redundant copies distributed throughout the area lessen downtime.  
+- **Scalability**: Develops automatically as your need for data grows.
+- **Redundancy**:Redundant copies spread around the area lower downtime.
 - **Security**: Encrypted storage and access controls.  
-- **Low Maintenance**: Providers manage hardware, updates, and a lot of administrative work.  
+- **Low Maintenance**: Hardware, updates, and a lot of administrative chores are handled by providers.
 - **Affordable**: Only pay for what you use.  
 
 ### ⚠️ Cons
 
-- **Vendor Lock-In**: It's difficult to change providers without experiencing migration problems.  
+- **Vendor Lock-In**: It's challenging to switch providers without running into migration issues.
 - **Internet Reliance**: Access is limited to those who have an internet connection.  
-- **Additional Expenses**: Some companies charge exorbitant fees for big data transfers.  
+- **Additional Expenses**: Some businesses have outrageous fees for massive data transfers.
 - **Intricate Setup**: You must still be familiar with cloud technologies and best practices.  
 
 ### 💻 Model Cloud DB Platforms
